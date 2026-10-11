@@ -1,0 +1,9 @@
+pydantic>=2
+pytest
+mcp<2
+fastapi
+uvicorn
+httpx
+azure-identity
+google-generativeai  # only needed for: python -m llm_eval.evaluate --gemini
+anthropic  # only needed for: python -m llm_eval.evaluate --claude
